@@ -10,7 +10,8 @@
 (defn ->response [content-type body & [status]]
   (let [content (case content-type
                   :html "text/html"
-                  :json "text/json")]
+                  :json "text/json"
+                  :text "text/plain")]
     {:status (or status 200)
      :headers {"Content-Type" content}
      :body body}))
@@ -30,11 +31,11 @@
   (GET "/" []
        (->html "Hello World"))
 
-  (GET "/auth/oath_redirect" request
+  (GET "/auth/oauth_redirect" request
        (lg/info "oauth_called" request)
        (->html "Ok!"))
-  (ANY "*" []
-       (route/not-found (slurp (io/resource "404.html")))))
+  (GET "*" []
+       (->response :text "" 404)))
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
