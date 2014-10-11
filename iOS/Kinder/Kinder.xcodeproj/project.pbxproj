@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691D59994FB54520B5B1FBB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FD36FD6C7748BB9791AE0F /* libPods.a */; };
 		8FA003A819E98E0B008EE294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003A719E98E0B008EE294 /* main.m */; };
 		8FA003AB19E98E0B008EE294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003AA19E98E0B008EE294 /* AppDelegate.m */; };
 		8FA003AE19E98E0B008EE294 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003AD19E98E0B008EE294 /* MasterViewController.m */; };
-		8FA003B119E98E0B008EE294 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003B019E98E0B008EE294 /* DetailViewController.m */; };
-		8FA003B419E98E0B008EE294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B219E98E0B008EE294 /* Main.storyboard */; };
 		8FA003B619E98E0B008EE294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B519E98E0B008EE294 /* Images.xcassets */; };
 		8FA003B919E98E0B008EE294 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B719E98E0B008EE294 /* LaunchScreen.xib */; };
 		8FA003C519E98E0B008EE294 /* KinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003C419E98E0B008EE294 /* KinderTests.m */; };
 		8FB5990819E990D200189C17 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5990719E990D200189C17 /* MasterViewController.xib */; };
+		8FB5990C19E99F1900189C17 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5990A19E99F1900189C17 /* QuestionViewController.m */; };
+		8FB5990D19E99F1900189C17 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5990B19E99F1900189C17 /* QuestionViewController.xib */; };
+		8FB5991119E9A2DC00189C17 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5990F19E9A2DC00189C17 /* LeaderboardViewController.m */; };
+		8FB5991219E9A2DC00189C17 /* LeaderboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5991019E9A2DC00189C17 /* LeaderboardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD9ED7DE05F402F840DB851 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		43FD36FD6C7748BB9791AE0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA003A219E98E0B008EE294 /* Kinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA003A619E98E0B008EE294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA003A719E98E0B008EE294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,15 +41,18 @@
 		8FA003AA19E98E0B008EE294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8FA003AC19E98E0B008EE294 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		8FA003AD19E98E0B008EE294 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		8FA003AF19E98E0B008EE294 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		8FA003B019E98E0B008EE294 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		8FA003B319E98E0B008EE294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FA003B519E98E0B008EE294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FA003B819E98E0B008EE294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8FA003BE19E98E0B008EE294 /* KinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA003C319E98E0B008EE294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA003C419E98E0B008EE294 /* KinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinderTests.m; sourceTree = "<group>"; };
 		8FB5990719E990D200189C17 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		8FB5990919E99F1900189C17 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		8FB5990A19E99F1900189C17 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		8FB5990B19E99F1900189C17 /* QuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		8FB5990E19E9A2DC00189C17 /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		8FB5990F19E9A2DC00189C17 /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		8FB5991019E9A2DC00189C17 /* LeaderboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderboardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691D59994FB54520B5B1FBB9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +80,8 @@
 				8FA003A419E98E0B008EE294 /* Kinder */,
 				8FA003C119E98E0B008EE294 /* KinderTests */,
 				8FA003A319E98E0B008EE294 /* Products */,
+				0AD9ED7DE05F402F840DB851 /* Pods.xcconfig */,
+				9DF703755BA3467C9B4940B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,9 +102,12 @@
 				8FA003AC19E98E0B008EE294 /* MasterViewController.h */,
 				8FA003AD19E98E0B008EE294 /* MasterViewController.m */,
 				8FB5990719E990D200189C17 /* MasterViewController.xib */,
-				8FA003AF19E98E0B008EE294 /* DetailViewController.h */,
-				8FA003B019E98E0B008EE294 /* DetailViewController.m */,
-				8FA003B219E98E0B008EE294 /* Main.storyboard */,
+				8FB5990919E99F1900189C17 /* QuestionViewController.h */,
+				8FB5990A19E99F1900189C17 /* QuestionViewController.m */,
+				8FB5990B19E99F1900189C17 /* QuestionViewController.xib */,
+				8FB5990E19E9A2DC00189C17 /* LeaderboardViewController.h */,
+				8FB5990F19E9A2DC00189C17 /* LeaderboardViewController.m */,
+				8FB5991019E9A2DC00189C17 /* LeaderboardViewController.xib */,
 				8FA003B519E98E0B008EE294 /* Images.xcassets */,
 				8FA003B719E98E0B008EE294 /* LaunchScreen.xib */,
 				8FA003A519E98E0B008EE294 /* Supporting Files */,
@@ -127,6 +141,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9DF703755BA3467C9B4940B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43FD36FD6C7748BB9791AE0F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA003C819E98E0B008EE294 /* Build configuration list for PBXNativeTarget "Kinder" */;
 			buildPhases = (
+				054DBAE9A86F4DEC9CD43BEB /* Check Pods Manifest.lock */,
 				8FA0039E19E98E0B008EE294 /* Sources */,
 				8FA0039F19E98E0B008EE294 /* Frameworks */,
 				8FA003A019E98E0B008EE294 /* Resources */,
+				E81B9673827548E4ADBCBE02 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,9 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB5991219E9A2DC00189C17 /* LeaderboardViewController.xib in Resources */,
 				8FB5990819E990D200189C17 /* MasterViewController.xib in Resources */,
-				8FA003B419E98E0B008EE294 /* Main.storyboard in Resources */,
 				8FA003B919E98E0B008EE294 /* LaunchScreen.xib in Resources */,
+				8FB5990D19E99F1900189C17 /* QuestionViewController.xib in Resources */,
 				8FA003B619E98E0B008EE294 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,15 +248,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		054DBAE9A86F4DEC9CD43BEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E81B9673827548E4ADBCBE02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FA0039E19E98E0B008EE294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8FA003AB19E98E0B008EE294 /* AppDelegate.m in Sources */,
+				8FB5991119E9A2DC00189C17 /* LeaderboardViewController.m in Sources */,
 				8FA003AE19E98E0B008EE294 /* MasterViewController.m in Sources */,
+				8FB5990C19E99F1900189C17 /* QuestionViewController.m in Sources */,
 				8FA003A819E98E0B008EE294 /* main.m in Sources */,
-				8FA003B119E98E0B008EE294 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8FA003B219E98E0B008EE294 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FA003B319E98E0B008EE294 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8FA003B719E98E0B008EE294 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,6 +402,7 @@
 		};
 		8FA003C919E98E0B008EE294 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD9ED7DE05F402F840DB851 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kinder/Info.plist;
@@ -361,6 +413,7 @@
 		};
 		8FA003CA19E98E0B008EE294 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD9ED7DE05F402F840DB851 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kinder/Info.plist;

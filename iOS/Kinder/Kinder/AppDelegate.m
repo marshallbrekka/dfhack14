@@ -8,6 +8,20 @@
 
 #import "AppDelegate.h"
 #import "MasterViewController.h"
+#import "QuestionViewController.h"
+#import "LeaderboardViewController.h" 
+
+#import <XHTwitterPaggingViewer/XHTwitterPaggingViewer.h>
+
+typedef NS_ENUM(NSInteger, ViewControllerIndex) {
+    LeaderboardSection = 0,
+    HomeViewSection = 1,
+    QuestionSection = 2
+};
+
+static const NSString *kLeaderboardTitle = @"Leaderboard";
+static const NSString *kHomeTitle = @"Home";
+static const NSString *kQuestionTitle = @"Ask a Question";
 
 @interface AppDelegate ()
 
@@ -20,12 +34,38 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    MasterViewController *viewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
-
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = navController;
-
+    
+    XHTwitterPaggingViewer *twitterPaggingViewer = [[XHTwitterPaggingViewer alloc] init];
+    
+    NSMutableArray *viewControllers = [[NSMutableArray alloc] initWithCapacity:3];
+    
+    // Should match ViewControllerIndex order!
+    NSArray *titles = @[kLeaderboardTitle, kHomeTitle, kQuestionTitle];
+    
+    [titles enumerateObjectsUsingBlock:^(NSString *title, NSUInteger idx, BOOL *stop) {
+        UIViewController *viewController;
+        if (idx == HomeViewSection) {
+            viewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
+        } else if (idx == QuestionSection) {
+            viewController = [[QuestionViewController alloc] initWithNibName:@"QuestionViewController" bundle:nil];
+        } else {
+            viewController = [[LeaderboardViewController alloc] initWithNibName:@"LeaderboardViewController" bundle:nil];
+        }
+        viewController.title = title;
+        UINavigationController *testNav = [[UINavigationController alloc] initWithRootViewController:viewController];
+        [viewControllers addObject:testNav];
+    }];
+    
+    twitterPaggingViewer.viewControllers = viewControllers;
+    
+    twitterPaggingViewer.didChangedPageCompleted = ^(NSInteger cuurentPage, NSString *title) {
+        NSLog(@"cuurentPage : %ld on title : %@", (long)cuurentPage, title);
+    };
+    
+    [twitterPaggingViewer setCurrentPage:HomeViewSection animated:YES];
+    
+    self.window.rootViewController = twitterPaggingViewer;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
