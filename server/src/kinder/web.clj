@@ -3,8 +3,23 @@
             [compojure.handler :refer [site]]
             [compojure.route :as route]
             [clojure.java.io :as io]
+            [clojure.tools.logging :as lg]
             [ring.adapter.jetty :as jetty]
             [environ.core :refer [env]]))
+
+(defn ->response [content-type body & [status]]
+  (let [content (case content-type
+                  :html "text/html"
+                  :json "text/json")]
+    {:status (or status 200)
+     :headers {"Content-Type" content}
+     :body body}))
+
+(defn ->json [body & [status]]
+  (->response :json body status))
+
+(defn ->html [body & [status]]
+  (->response :html body status))
 
 (defn splash []
   {:status 200
@@ -13,7 +28,11 @@
 
 (defroutes app
   (GET "/" []
-       (splash))
+       (->html "Hello World"))
+
+  (GET "/auth/oath_redirect" request
+       (lg/info "oauth_called" request)
+       (->html "Ok!"))
   (ANY "*" []
        (route/not-found (slurp (io/resource "404.html")))))
 
