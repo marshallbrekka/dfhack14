@@ -4,6 +4,7 @@
             [compojure.route :as route]
             [clojure.java.io :as io]
             [clojure.tools.logging :as lg]
+            [kinder.auth :as auth]
             [ring.adapter.jetty :as jetty]
             [environ.core :refer [env]]))
 
@@ -34,6 +35,15 @@
   (GET "/auth/oauth_redirect" request
        (lg/info "oauth_called" request)
        (->html "Ok!"))
+
+
+  (POST "/auth/loginurl" []
+        (->json {:url (auth/login-url)}))
+  (POST "/auth/authenticate" [code]
+        (->json {:token (:access_token (auth/authorize code))}))
+
+
+  
   (GET "*" []
        (->response :text "" 404)))
 
