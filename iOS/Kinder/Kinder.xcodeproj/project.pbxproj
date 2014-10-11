@@ -7,50 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F8CFAAC19E98CF800351029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CFAAB19E98CF800351029 /* main.m */; };
-		8F8CFAAF19E98CF800351029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CFAAE19E98CF800351029 /* AppDelegate.m */; };
-		8F8CFAB219E98CF800351029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CFAB119E98CF800351029 /* ViewController.m */; };
-		8F8CFAB519E98CF800351029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8CFAB319E98CF800351029 /* Main.storyboard */; };
-		8F8CFAB719E98CF800351029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8CFAB619E98CF800351029 /* Images.xcassets */; };
-		8F8CFABA19E98CF800351029 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F8CFAB819E98CF800351029 /* LaunchScreen.xib */; };
-		8F8CFAC619E98CF800351029 /* KinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CFAC519E98CF800351029 /* KinderTests.m */; };
+		8FA003A819E98E0B008EE294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003A719E98E0B008EE294 /* main.m */; };
+		8FA003AB19E98E0B008EE294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003AA19E98E0B008EE294 /* AppDelegate.m */; };
+		8FA003AE19E98E0B008EE294 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003AD19E98E0B008EE294 /* MasterViewController.m */; };
+		8FA003B119E98E0B008EE294 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003B019E98E0B008EE294 /* DetailViewController.m */; };
+		8FA003B419E98E0B008EE294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B219E98E0B008EE294 /* Main.storyboard */; };
+		8FA003B619E98E0B008EE294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B519E98E0B008EE294 /* Images.xcassets */; };
+		8FA003B919E98E0B008EE294 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B719E98E0B008EE294 /* LaunchScreen.xib */; };
+		8FA003C519E98E0B008EE294 /* KinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003C419E98E0B008EE294 /* KinderTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8F8CFAC019E98CF800351029 /* PBXContainerItemProxy */ = {
+		8FA003BF19E98E0B008EE294 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8F8CFA9E19E98CF800351029 /* Project object */;
+			containerPortal = 8FA0039A19E98E0B008EE294 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F8CFAA519E98CF800351029;
+			remoteGlobalIDString = 8FA003A119E98E0B008EE294;
 			remoteInfo = Kinder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8F8CFAA619E98CF800351029 /* Kinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F8CFAAA19E98CF800351029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F8CFAAB19E98CF800351029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F8CFAAD19E98CF800351029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8F8CFAAE19E98CF800351029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F8CFAB019E98CF800351029 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F8CFAB119E98CF800351029 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8F8CFAB419E98CF800351029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F8CFAB619E98CF800351029 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8F8CFAB919E98CF800351029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8F8CFABF19E98CF800351029 /* KinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F8CFAC419E98CF800351029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F8CFAC519E98CF800351029 /* KinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinderTests.m; sourceTree = "<group>"; };
+		8FA003A219E98E0B008EE294 /* Kinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA003A619E98E0B008EE294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA003A719E98E0B008EE294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FA003A919E98E0B008EE294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FA003AA19E98E0B008EE294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FA003AC19E98E0B008EE294 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8FA003AD19E98E0B008EE294 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8FA003AF19E98E0B008EE294 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8FA003B019E98E0B008EE294 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8FA003B319E98E0B008EE294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA003B519E98E0B008EE294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FA003B819E98E0B008EE294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8FA003BE19E98E0B008EE294 /* KinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA003C319E98E0B008EE294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA003C419E98E0B008EE294 /* KinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinderTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F8CFAA319E98CF800351029 /* Frameworks */ = {
+		8FA0039F19E98E0B008EE294 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F8CFABC19E98CF800351029 /* Frameworks */ = {
+		8FA003BB19E98E0B008EE294 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +63,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F8CFA9D19E98CF800351029 = {
+		8FA0039919E98E0B008EE294 = {
 			isa = PBXGroup;
 			children = (
-				8F8CFAA819E98CF800351029 /* Kinder */,
-				8F8CFAC219E98CF800351029 /* KinderTests */,
-				8F8CFAA719E98CF800351029 /* Products */,
+				8FA003A419E98E0B008EE294 /* Kinder */,
+				8FA003C119E98E0B008EE294 /* KinderTests */,
+				8FA003A319E98E0B008EE294 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8F8CFAA719E98CF800351029 /* Products */ = {
+		8FA003A319E98E0B008EE294 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F8CFAA619E98CF800351029 /* Kinder.app */,
-				8F8CFABF19E98CF800351029 /* KinderTests.xctest */,
+				8FA003A219E98E0B008EE294 /* Kinder.app */,
+				8FA003BE19E98E0B008EE294 /* KinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F8CFAA819E98CF800351029 /* Kinder */ = {
+		8FA003A419E98E0B008EE294 /* Kinder */ = {
 			isa = PBXGroup;
 			children = (
-				8F8CFAAD19E98CF800351029 /* AppDelegate.h */,
-				8F8CFAAE19E98CF800351029 /* AppDelegate.m */,
-				8F8CFAB019E98CF800351029 /* ViewController.h */,
-				8F8CFAB119E98CF800351029 /* ViewController.m */,
-				8F8CFAB319E98CF800351029 /* Main.storyboard */,
-				8F8CFAB619E98CF800351029 /* Images.xcassets */,
-				8F8CFAB819E98CF800351029 /* LaunchScreen.xib */,
-				8F8CFAA919E98CF800351029 /* Supporting Files */,
+				8FA003A919E98E0B008EE294 /* AppDelegate.h */,
+				8FA003AA19E98E0B008EE294 /* AppDelegate.m */,
+				8FA003AC19E98E0B008EE294 /* MasterViewController.h */,
+				8FA003AD19E98E0B008EE294 /* MasterViewController.m */,
+				8FA003AF19E98E0B008EE294 /* DetailViewController.h */,
+				8FA003B019E98E0B008EE294 /* DetailViewController.m */,
+				8FA003B219E98E0B008EE294 /* Main.storyboard */,
+				8FA003B519E98E0B008EE294 /* Images.xcassets */,
+				8FA003B719E98E0B008EE294 /* LaunchScreen.xib */,
+				8FA003A519E98E0B008EE294 /* Supporting Files */,
 			);
 			path = Kinder;
 			sourceTree = "<group>";
 		};
-		8F8CFAA919E98CF800351029 /* Supporting Files */ = {
+		8FA003A519E98E0B008EE294 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F8CFAAA19E98CF800351029 /* Info.plist */,
-				8F8CFAAB19E98CF800351029 /* main.m */,
+				8FA003A619E98E0B008EE294 /* Info.plist */,
+				8FA003A719E98E0B008EE294 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8F8CFAC219E98CF800351029 /* KinderTests */ = {
+		8FA003C119E98E0B008EE294 /* KinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				8F8CFAC519E98CF800351029 /* KinderTests.m */,
-				8F8CFAC319E98CF800351029 /* Supporting Files */,
+				8FA003C419E98E0B008EE294 /* KinderTests.m */,
+				8FA003C219E98E0B008EE294 /* Supporting Files */,
 			);
 			path = KinderTests;
 			sourceTree = "<group>";
 		};
-		8F8CFAC319E98CF800351029 /* Supporting Files */ = {
+		8FA003C219E98E0B008EE294 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F8CFAC419E98CF800351029 /* Info.plist */,
+				8FA003C319E98E0B008EE294 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,13 +127,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F8CFAA519E98CF800351029 /* Kinder */ = {
+		8FA003A119E98E0B008EE294 /* Kinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F8CFAC919E98CF800351029 /* Build configuration list for PBXNativeTarget "Kinder" */;
+			buildConfigurationList = 8FA003C819E98E0B008EE294 /* Build configuration list for PBXNativeTarget "Kinder" */;
 			buildPhases = (
-				8F8CFAA219E98CF800351029 /* Sources */,
-				8F8CFAA319E98CF800351029 /* Frameworks */,
-				8F8CFAA419E98CF800351029 /* Resources */,
+				8FA0039E19E98E0B008EE294 /* Sources */,
+				8FA0039F19E98E0B008EE294 /* Frameworks */,
+				8FA003A019E98E0B008EE294 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +141,46 @@
 			);
 			name = Kinder;
 			productName = Kinder;
-			productReference = 8F8CFAA619E98CF800351029 /* Kinder.app */;
+			productReference = 8FA003A219E98E0B008EE294 /* Kinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8F8CFABE19E98CF800351029 /* KinderTests */ = {
+		8FA003BD19E98E0B008EE294 /* KinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F8CFACC19E98CF800351029 /* Build configuration list for PBXNativeTarget "KinderTests" */;
+			buildConfigurationList = 8FA003CB19E98E0B008EE294 /* Build configuration list for PBXNativeTarget "KinderTests" */;
 			buildPhases = (
-				8F8CFABB19E98CF800351029 /* Sources */,
-				8F8CFABC19E98CF800351029 /* Frameworks */,
-				8F8CFABD19E98CF800351029 /* Resources */,
+				8FA003BA19E98E0B008EE294 /* Sources */,
+				8FA003BB19E98E0B008EE294 /* Frameworks */,
+				8FA003BC19E98E0B008EE294 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F8CFAC119E98CF800351029 /* PBXTargetDependency */,
+				8FA003C019E98E0B008EE294 /* PBXTargetDependency */,
 			);
 			name = KinderTests;
 			productName = KinderTests;
-			productReference = 8F8CFABF19E98CF800351029 /* KinderTests.xctest */;
+			productReference = 8FA003BE19E98E0B008EE294 /* KinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F8CFA9E19E98CF800351029 /* Project object */ = {
+		8FA0039A19E98E0B008EE294 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Klein Lieu";
 				TargetAttributes = {
-					8F8CFAA519E98CF800351029 = {
+					8FA003A119E98E0B008EE294 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					8F8CFABE19E98CF800351029 = {
+					8FA003BD19E98E0B008EE294 = {
 						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 8F8CFAA519E98CF800351029;
+						TestTargetID = 8FA003A119E98E0B008EE294;
 					};
 				};
 			};
-			buildConfigurationList = 8F8CFAA119E98CF800351029 /* Build configuration list for PBXProject "Kinder" */;
+			buildConfigurationList = 8FA0039D19E98E0B008EE294 /* Build configuration list for PBXProject "Kinder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +188,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 8F8CFA9D19E98CF800351029;
-			productRefGroup = 8F8CFAA719E98CF800351029 /* Products */;
+			mainGroup = 8FA0039919E98E0B008EE294;
+			productRefGroup = 8FA003A319E98E0B008EE294 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F8CFAA519E98CF800351029 /* Kinder */,
-				8F8CFABE19E98CF800351029 /* KinderTests */,
+				8FA003A119E98E0B008EE294 /* Kinder */,
+				8FA003BD19E98E0B008EE294 /* KinderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F8CFAA419E98CF800351029 /* Resources */ = {
+		8FA003A019E98E0B008EE294 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F8CFAB519E98CF800351029 /* Main.storyboard in Resources */,
-				8F8CFABA19E98CF800351029 /* LaunchScreen.xib in Resources */,
-				8F8CFAB719E98CF800351029 /* Images.xcassets in Resources */,
+				8FA003B419E98E0B008EE294 /* Main.storyboard in Resources */,
+				8FA003B919E98E0B008EE294 /* LaunchScreen.xib in Resources */,
+				8FA003B619E98E0B008EE294 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F8CFABD19E98CF800351029 /* Resources */ = {
+		8FA003BC19E98E0B008EE294 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +220,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F8CFAA219E98CF800351029 /* Sources */ = {
+		8FA0039E19E98E0B008EE294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F8CFAB219E98CF800351029 /* ViewController.m in Sources */,
-				8F8CFAAF19E98CF800351029 /* AppDelegate.m in Sources */,
-				8F8CFAAC19E98CF800351029 /* main.m in Sources */,
+				8FA003AB19E98E0B008EE294 /* AppDelegate.m in Sources */,
+				8FA003AE19E98E0B008EE294 /* MasterViewController.m in Sources */,
+				8FA003A819E98E0B008EE294 /* main.m in Sources */,
+				8FA003B119E98E0B008EE294 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F8CFABB19E98CF800351029 /* Sources */ = {
+		8FA003BA19E98E0B008EE294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F8CFAC619E98CF800351029 /* KinderTests.m in Sources */,
+				8FA003C519E98E0B008EE294 /* KinderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8F8CFAC119E98CF800351029 /* PBXTargetDependency */ = {
+		8FA003C019E98E0B008EE294 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8F8CFAA519E98CF800351029 /* Kinder */;
-			targetProxy = 8F8CFAC019E98CF800351029 /* PBXContainerItemProxy */;
+			target = 8FA003A119E98E0B008EE294 /* Kinder */;
+			targetProxy = 8FA003BF19E98E0B008EE294 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8F8CFAB319E98CF800351029 /* Main.storyboard */ = {
+		8FA003B219E98E0B008EE294 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8F8CFAB419E98CF800351029 /* Base */,
+				8FA003B319E98E0B008EE294 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8F8CFAB819E98CF800351029 /* LaunchScreen.xib */ = {
+		8FA003B719E98E0B008EE294 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8F8CFAB919E98CF800351029 /* Base */,
+				8FA003B819E98E0B008EE294 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +269,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8F8CFAC719E98CF800351029 /* Debug */ = {
+		8FA003C619E98E0B008EE294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		8F8CFAC819E98CF800351029 /* Release */ = {
+		8FA003C719E98E0B008EE294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +345,7 @@
 			};
 			name = Release;
 		};
-		8F8CFACA19E98CF800351029 /* Debug */ = {
+		8FA003C919E98E0B008EE294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -349,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		8F8CFACB19E98CF800351029 /* Release */ = {
+		8FA003CA19E98E0B008EE294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -359,7 +365,7 @@
 			};
 			name = Release;
 		};
-		8F8CFACD19E98CF800351029 /* Debug */ = {
+		8FA003CC19E98E0B008EE294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		8F8CFACE19E98CF800351029 /* Release */ = {
+		8FA003CD19E98E0B008EE294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,32 +402,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F8CFAA119E98CF800351029 /* Build configuration list for PBXProject "Kinder" */ = {
+		8FA0039D19E98E0B008EE294 /* Build configuration list for PBXProject "Kinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F8CFAC719E98CF800351029 /* Debug */,
-				8F8CFAC819E98CF800351029 /* Release */,
+				8FA003C619E98E0B008EE294 /* Debug */,
+				8FA003C719E98E0B008EE294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F8CFAC919E98CF800351029 /* Build configuration list for PBXNativeTarget "Kinder" */ = {
+		8FA003C819E98E0B008EE294 /* Build configuration list for PBXNativeTarget "Kinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F8CFACA19E98CF800351029 /* Debug */,
-				8F8CFACB19E98CF800351029 /* Release */,
+				8FA003C919E98E0B008EE294 /* Debug */,
+				8FA003CA19E98E0B008EE294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8F8CFACC19E98CF800351029 /* Build configuration list for PBXNativeTarget "KinderTests" */ = {
+		8FA003CB19E98E0B008EE294 /* Build configuration list for PBXNativeTarget "KinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F8CFACD19E98CF800351029 /* Debug */,
-				8F8CFACE19E98CF800351029 /* Release */,
+				8FA003CC19E98E0B008EE294 /* Debug */,
+				8FA003CD19E98E0B008EE294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F8CFA9E19E98CF800351029 /* Project object */;
+	rootObject = 8FA0039A19E98E0B008EE294 /* Project object */;
 }
