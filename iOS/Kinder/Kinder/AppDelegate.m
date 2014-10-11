@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "DetailViewController.h"
+#import "MasterViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MasterViewController *viewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
+
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navController;
+
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>46BE945F-E7E5-4C60-B093-CF2C070B3906</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5EB4EC06F66457EFBD097FDC4C396EB3D81D374F</key>
+		<string>https://github.com/marshallbrekka/dfhack14.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Kinder/Kinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5EB4EC06F66457EFBD097FDC4C396EB3D81D374F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marshallbrekka/dfhack14.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5EB4EC06F66457EFBD097FDC4C396EB3D81D374F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5EB4EC06F66457EFBD097FDC4C396EB3D81D374F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dfhack14</string>
+		</dict>
+	</array>
+</dict>
+</plist>

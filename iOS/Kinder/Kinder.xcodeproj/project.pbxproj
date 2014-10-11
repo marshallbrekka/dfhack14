@@ -15,6 +15,7 @@
 		8FA003B619E98E0B008EE294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B519E98E0B008EE294 /* Images.xcassets */; };
 		8FA003B919E98E0B008EE294 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FA003B719E98E0B008EE294 /* LaunchScreen.xib */; };
 		8FA003C519E98E0B008EE294 /* KinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA003C419E98E0B008EE294 /* KinderTests.m */; };
+		8FB5990819E990D200189C17 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5990719E990D200189C17 /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		8FA003BE19E98E0B008EE294 /* KinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA003C319E98E0B008EE294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA003C419E98E0B008EE294 /* KinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KinderTests.m; sourceTree = "<group>"; };
+		8FB5990719E990D200189C17 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				8FA003AA19E98E0B008EE294 /* AppDelegate.m */,
 				8FA003AC19E98E0B008EE294 /* MasterViewController.h */,
 				8FA003AD19E98E0B008EE294 /* MasterViewController.m */,
+				8FB5990719E990D200189C17 /* MasterViewController.xib */,
 				8FA003AF19E98E0B008EE294 /* DetailViewController.h */,
 				8FA003B019E98E0B008EE294 /* DetailViewController.m */,
 				8FA003B219E98E0B008EE294 /* Main.storyboard */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB5990819E990D200189C17 /* MasterViewController.xib in Resources */,
 				8FA003B419E98E0B008EE294 /* Main.storyboard in Resources */,
 				8FA003B919E98E0B008EE294 /* LaunchScreen.xib in Resources */,
 				8FA003B619E98E0B008EE294 /* Images.xcassets in Resources */,
@@ -418,6 +422,7 @@
 				8FA003CA19E98E0B008EE294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA003CB19E98E0B008EE294 /* Build configuration list for PBXNativeTarget "KinderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				8FA003CD19E98E0B008EE294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
