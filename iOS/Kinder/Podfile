@@ -1,0 +1,6 @@
+workspace 'Kinder.xcworkspace'
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+pod 'XHTwitterPaggingViewer', :git => 'https://github.com/kleinlieu/TwitterPaggingViewer.git'
+pod 'AFNetworking', '~> 2.4.1'
